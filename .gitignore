@@ -1,0 +1,80 @@
+# Python Bytecode Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled artifacts
+*.com
+*.dll
+*.exe
+*.o
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+*/site-packages/
+ Lib/      # Windows virtual environment library (less common, but just in case)
+ Include/  # Windows virtual environment includes (less common)
+
+# Log and temp files
+*.log
+*.tmp
+temp/
+tmp/
+*.pid
+*.seed
+*.csv # ตัวอย่างไฟล์ CSV data (ถ้าไม่ควร commit)
+*.sql # ตัวอย่างไฟล์ SQL data (ถ้าไม่ควร commit)
+*.sqlite # ตัวอย่างไฟล์ SQLite database (ถ้าไม่ควร commit)
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE and editor folders
+.idea/
+.vscode/
+*.project
+*.workspace
+*.iml
+*.ipr
+*.iws
+
+# MyPy cache
+.mypy_cache/
+
+# pytype cache
+.pytype_cache/
+
+# IPython notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Installer logs
+pip-log.txt
+pip-delete-this.txt
+
+# Environments configuration files (Example - customize as needed)
+# config.ini
+# secrets.json
+# .envrc  # direnv
+# .flaskenv # Flask
